@@ -22,7 +22,7 @@ const Shop=(props)=>  {
       <div>
         <ShopFirst/>
         <div className='row container-fluid d-flex shop2'>
-        <ShopSecond products={props.data} x={props.add} />
+        <ShopSecond products={props.shopSecondProducts} x={props.add} />
         </div>
         <div className='d-flex shopbtn'>
         <Link to={'/'}><Button   className=' mt-3 '>Back Home</Button></Link>

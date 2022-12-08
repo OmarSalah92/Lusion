@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { FaCartPlus } from 'react-icons/fa';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
@@ -12,22 +12,23 @@ import shopC7 from '../Photos/Photos/shopC7.jpg'
 import shopC8 from '../Photos/Photos/shopC8.jpg'
 import t5 from '../Photos/Photos/t5.jpg'
 import {useNavigate} from 'react-router-dom'
+import axios from 'axios';
 const ShopSecond =(props)=> {
   const navigate = useNavigate()
- 
+
   
 
 
     return (
         
         props.products.map((e)=>(
-    <div  key={e.id} className='col-lg-4 col-md-3 col-sm-3 d-flex justify-content-center'>
+    <div  key={e.id} className='col-lg-4 col-md-3 col-sm-3 d-flex justify-content-center scndshop'>
         <Card style={{ width: '17rem' }} >
-      <Card.Img variant="top" src={e.img}  />
+      <Card.Img variant="top" src={e.productImage}  />
       <Card.Body>
-        <Card.Title>{e.name}</Card.Title>
+        <Card.Title>{e.productName}</Card.Title>
         <Card.Text>
-         ${e.price}
+         ${e.productPrice}
         </Card.Text>
         <Button variant="light" onClick={()=>props.x(e)}>
         <FaCartPlus/>

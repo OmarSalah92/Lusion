@@ -1,0 +1,177 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "firstName": "omar",
+      "SecondName": "salah",
+      "EmailAddress": "omar@hotmail.com",
+      "phoneNumber": "+201128509678",
+      "type": "admin",
+      "password": "123456",
+      "Age": 33,
+      "id": 1
+    },
+    {
+      "firstName": "reem",
+      "SecondName": "mahdi",
+      "EmailAddress": "reem.mahdi@hotmail.com",
+      "phoneNumber": "+201128509678",
+      "type": "user",
+      "password": "123456789",
+      "Age": 27,
+      "id": 2
+    },
+    {
+      "firstName": "ahmed",
+      "SecondName": "omar",
+      "EmailAddress": "ahmed.omar@hotmail.com",
+      "phoneNumber": "201192362732",
+      "type": "admin",
+      "password": "456456",
+      "Age": "23",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "productName": "shirt",
+      "productPrice": 100,
+      "productThumbImage": "https://www8.0zz0.com/thumbs/2022/11/25/23/680037048.jpg",
+      "productImage": "https://www5.0zz0.com/2022/11/25/20/758506913.jpg",
+      "productItems": 25,
+      "count":1,
+      "id": 1
+    },
+    {
+      "productName": "shirt",
+      "productPrice": 210,
+      "productThumbImage": "https://www13.0zz0.com/thumbs/2022/11/25/23/453952485.jpg",
+      "productImage": "https://www9.0zz0.com/2022/11/21/19/511972089.jpg",
+      "productItems": 30,
+      "count":1,
+      "id": 2
+    },
+    {
+      "productName": "shirt",
+      "productPrice": 230,
+      "productThumbImage": "https://www4.0zz0.com/thumbs/2022/11/25/23/462503989.jpg",
+      "productImage": "https://www12.0zz0.com/2022/11/21/19/536837719.jpg",
+      "productItems": 20,
+      "count":1,
+      "id": 3
+    },
+    {
+      "productName": "shirt",
+      "productPrice": 260,
+      "productThumbImage": "https://www12.0zz0.com/thumbs/2022/11/25/23/107134526.jpg",
+      "productImage": "https://www12.0zz0.com/2022/11/25/23/107134526.jpg",
+      "productItems": "12",
+      "count":1,
+      "id": 4
+    },
+    {
+      "productName": "shirt",
+      "productPrice": 230,
+      "productThumbImage": "https://www4.0zz0.com/thumbs/2022/11/25/23/665963868.jpg",
+      "productImage": "https://www4.0zz0.com/2022/11/25/20/907544626.jpg",
+      "productItems": 14,
+      "count":1,
+      "id": 5
+    },
+    {
+      "productName": "shirt",
+      "productPrice": 180,
+      "productThumbImage": "https://www3.0zz0.com/thumbs/2022/11/25/23/541703047.jpg",
+      "productImage": "https://www3.0zz0.com/2022/11/25/23/541703047.jpg",
+      "productItems": 9,
+      "count":1,
+      "id": 6
+    },
+    {
+      "productName": "shirt",
+      "productPrice": 190,
+      "productThumbImage": "https://www7.0zz0.com/thumbs/2022/11/25/23/374331201.jpg",
+      "productImage": "https://www3.0zz0.com/2022/11/21/20/232457895.jpg",
+      "productItems": 15,
+      "count":1,
+      "id": 7
+    },
+    {
+      "productName": "shirt",
+      "productPrice": 210,
+      "productThumbImage": "https://www2.0zz0.com/thumbs/2022/11/25/23/306821531.jpg",
+      "productImage": "https://www2.0zz0.com/2022/11/25/23/306821531.jpg",
+      "productItems": 13,
+      "count":1,
+      "id": 8
+    },
+    {
+      "productName": "pants",
+      "productPrice": 270,
+      "productThumbImage": "https://www9.0zz0.com/thumbs/2022/11/25/23/740099769.jpg",
+      "productImage": "https://www9.0zz0.com/2022/11/25/23/740099769.jpg",
+      "productItems": 14,
+      "count":1,
+      "id": 9
+    },
+    {
+      "productName": "pants",
+      "productPrice": 220,
+      "productThumbImage": "https://www3.0zz0.com/thumbs/2022/11/25/23/238190453.jpg",
+      "productImage": "https://www3.0zz0.com/2022/11/25/23/238190453.jpg",
+      "productItems": 18,
+      "count":1,
+      "id": 10
+    },
+    {
+      "productName": "Quilted Gilet with Hood",
+      "productPrice": 110,
+      "productThumbImage": "https://www2.0zz0.com/thumbs/2022/11/25/23/958041538.jpg",
+      "productImage": "https://www2.0zz0.com/2022/11/25/23/958041538.jpg",
+      "productItems": 10,
+      "count":1,
+      "id": 11
+    },
+    {
+      "productName": "Quilted Gilet with Hood",
+      "productPrice": 130,
+      "productThumbImage": "https://www4.0zz0.com/thumbs/2022/11/25/23/814678668.jpg",
+      "productImage": "https://www4.0zz0.com/2022/11/25/23/814678668.jpg",
+      "productItems": 10,
+      "count":1,
+      "id": 12
+    },
+    {
+      "productName": "Quilted Gilet with Hood",
+      "productPrice": 140,
+      "productThumbImage": "https://www8.0zz0.com/thumbs/2022/11/25/23/907924160.jpg",
+      "productImage": "https://www8.0zz0.com/2022/11/25/23/907924160.jpg",
+      "productItems": 11,
+      "count":1,
+      "id": 13
+    },
+    {"productName": "Quilted Gilet with Hood",
+      "productPrice": 120,
+      "productThumbImage": "https://www13.0zz0.com/thumbs/2022/11/25/23/484179551.jpg",
+      "productImage":"https://www13.0zz0.com/2022/11/25/23/484179551.jpg",
+      "productItems": 14,
+      "count":1,
+      "id": 14 }
+  ]
+}
